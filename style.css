@@ -1,0 +1,57 @@
+
+body {
+  font-family: "comic sans ms";
+  margin: 0;
+  padding: 0;
+}
+#home {
+  margin-top: 6rem;
+}
+nav {
+  border-bottom: 1px solid #022e57;
+  margin-bottom: 5%;
+  background: white;
+}
+hr {
+  width: 250px;
+  border: 1px solid red;
+}
+img {
+  border-radius: 40px;
+}
+.navbar-expand-lg {
+  background-color: #ffffff;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 30px 0px 20px 0px;
+  margin-top: 20px;
+}
+#darkmode{
+  background-color: black;
+  color: white;
+}
+#darkmode nav{
+  background-color: black;
+  color: white;
+}
+#darkmode nav a{
+  background-color: black;
+  color: white;
+}
+#darkmode button{
+  border-color: white;
+}
+#darkmode .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28250, 270, 250, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#mode{
+  cursor: pointer;
+}
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 991.98px) {
+  #home{
+    text-align: center;
+  }
+}
